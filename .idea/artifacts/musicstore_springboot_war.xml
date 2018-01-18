@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="musicstore_springboot:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="musicstore_springboot-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="musicstore_springboot:war exploded" />
+    </root>
+  </artifact>
+</component>
