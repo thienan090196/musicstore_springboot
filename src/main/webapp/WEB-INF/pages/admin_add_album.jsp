@@ -2,7 +2,7 @@
 <%@include file="layout/admin/_head_menu.jsp"%>
 <div style="margin-left: 60px;">
     <h3>Create New Album</h3>
-    <form:form style="width: 50%; margin-left: 30px;" method="POST" action="/album/management/save" modelAttribute="album" enctype="multipart/form-data">
+    <form:form style="width: 50%; margin-left: 30px;" method="POST" action="${pageContext.request.contextPath}/album/management/save" modelAttribute="album" enctype="multipart/form-data">
         <form:hidden path="albumId" />
         <form:hidden path="createdAt" />
         <form:hidden path="modifiedAt" />
